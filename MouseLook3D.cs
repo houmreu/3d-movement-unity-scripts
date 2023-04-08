@@ -20,3 +20,13 @@ public class PlayerCam : MonoBehaviour
         orientation.rotation = Quaternion.Euler(0, rotationY, 0);
     }
 }
+
+/*
++ easy camera position set
+
+public Transform camPos;
+void Update(){
+    transform.position = camPos.position;
+}
+
+*/
